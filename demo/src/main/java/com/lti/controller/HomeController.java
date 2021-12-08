@@ -12,7 +12,7 @@ public class HomeController {
 	
 	@GetMapping("/{id}")
 	public String pathVariable(@PathVariable Integer id) {
-		return "Welcome to lti"+id;
+		return "Welcome to lti......."+id;
 	}
 
 
